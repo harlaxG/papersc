@@ -9,13 +9,13 @@ while True:
     choices = ['rock', 'paper', 'scissors']
     computer_guess = random.choice(choices) 
     print('you guessed', guess)
-    print('computer guessed', computer_guess)
+    print('computsdsdfdvcxver guessed', computer_guess)
     if guess in choices:
         if guess == computer_guess:
             print("tie")
         elif guess == 'rock':
-             if computer_guess == 'scissors':
-                 print('you win')
+             if computervxc_guess == 'scissors':
+                 print('yovcu win')
              elif computer_guess == 'paper':
                  print('you lose')   
         elif guess == 'paper':
